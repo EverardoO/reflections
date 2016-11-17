@@ -1,4 +1,4 @@
-What happens when you initialize a repository? Why do you need to do it?
+﻿What happens when you initialize a repository? Why do you need to do it?
     A hidden .git folder is created in the directory, and this is necesary 
     because that´s the way git knows it will start managing the repository.
 
@@ -7,3 +7,32 @@ repository? What value do you think it offers?
 
     The staging area is an intermediate zone that allows to undo temporary 
     changes.
+
+How can you use the staging area to make sure you have one commit per logical 
+change?
+
+    Adding to the staging area and inmediatly commiting a file.
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+    When you want to test experimental changes or functions and don´t want to 
+    override the previous version.
+
+How do the diagrams help you visualize the branch structure?
+
+    They are very helpfull when you want to define the internal structure of 
+    all the branches that contain the repository.
+
+What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+	
+    The result is one commit containing all the commits of both 
+    branches linked one by one to his parent.
+
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+
+    The pros are that when we use automatic merging feature and there doesn´t
+    exist any trouble it´s faster, and there is no cons because when git finds
+    a conflict it help us to resolve it.
