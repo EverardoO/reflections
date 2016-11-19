@@ -8,3 +8,12 @@ automatically stay up-to-date with your remote repository?
 
     Because you can select only the changes that you approve that other people
     have made. 
+
+Describe the differences between forks, clones, and branches. When would you 
+use one instead of another?
+
+    A fork is used when you want to copy a repository from a GitHub account to 
+    another, we use clon when we want to copy a local repository to another 
+    directory or a GitHub one to a local repository, and we use branch when we
+    want to work on another place some functions without modify our master 
+    branch.
